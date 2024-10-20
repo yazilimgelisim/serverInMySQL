@@ -1,0 +1,27 @@
+:root {
+  font-size: 16px;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+  width: 0px;
+}
+a, a:active, a:visited{
+  text-decoration: none;
+  color: black;
+}
+ul{
+  list-style: none;
+}
+body{
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: #dfdfdf;
+}
